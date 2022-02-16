@@ -36,7 +36,7 @@ for video_index, video_name in enumerate(videos):
 selected_video_number = input('\nВведите номер видео: ')
 
 try:
-    fps = int(input("Введите ФПС:"))
+    fps = int(input("Required FPS:"))
     has_inverted_colors = bool(input("Inverted colors?(True:False):"))
     loop = bool(input("Loop Video?(True:False):"))
 except:
